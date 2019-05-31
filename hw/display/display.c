@@ -27,7 +27,7 @@
 #include <hw/shared.h>
 
 #ifndef BACKLIGHT_PATH
-#define BACKLIGHT_PATH  "/sys/class/backlight/s6e3ha2"
+#define BACKLIGHT_PATH  "/sys/class/backlight/backlight_mipi"
 #endif
 
 #ifndef LCD_PATH

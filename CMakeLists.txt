@@ -1,14 +1,12 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
-PROJECT(device-manager-exynos8890 C)
+PROJECT(device-manager-pico C)
 
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
 
-ADD_SUBDIRECTORY(hw/battery)
 ADD_SUBDIRECTORY(hw/board)
 ADD_SUBDIRECTORY(hw/display)
 ADD_SUBDIRECTORY(hw/led)
 ADD_SUBDIRECTORY(hw/touchscreen)
-ADD_SUBDIRECTORY(hw/ir)
 ADD_SUBDIRECTORY(hw/usb_gadget)
 ADD_SUBDIRECTORY(hw/usb_client)
 ADD_SUBDIRECTORY(hw/usb_cfs_client)

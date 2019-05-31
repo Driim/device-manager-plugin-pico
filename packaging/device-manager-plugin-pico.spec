@@ -1,5 +1,5 @@
-Name:       device-manager-plugin-exynos8890
-Summary:    Device manager plugin exynos8890
+Name:       device-manager-plugin-pico
+Summary:    Device manager plugin pico
 Version:    0.0.1
 Release:    0
 Group:      System/Hardware Adaptation
@@ -16,7 +16,7 @@ BuildRequires:  pkgconfig(libudev)
 BuildRequires:  pkgconfig(libusbgx)
 
 %description
-Device manager plugin exynos 8890
+Device manager plugin Pico Pi
 
 
 %prep
